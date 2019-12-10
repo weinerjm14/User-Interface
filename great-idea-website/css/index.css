@@ -64,12 +64,46 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-nav a {
+nav a{
 	display: inline-block;
-	width:12%;
+	width:10%;
 	margin: 10px 0px 5px 15px;
 }
+image.logo{
+	display: inline-block;
+	width:10%;
+	margin: 25px 0px 5px 15px;
+} 
+.headerleft {
+	display: inline-block;
+	width: 40%;
+	padding: 50px 0 50px 0;
+	box-sizing: border-box;
 
-header h1 {
-	font-size: 48px;
+}
+h1.headerleft{
+	font-size: 300px;
+}
+.headerright {
+	display: inline-block;
+	width: 40%;
+	position: relative;
+	left: 50%;
+	box-sizing: border-box;
+}
+section.top {
+	display: inline-block;
+}
+
+.righttop {
+	width: 40%;
+	margin: 50px 0 50px 0;
+	border: 2px solid black;
+	position: relative;
+	left: 50%;
+}
+.lefttop{
+	width: 40%;
+	margin: 50px 0 50px 0;
+
 }
