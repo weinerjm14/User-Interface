@@ -89,21 +89,27 @@ h1.headerleft{
 	width: 40%;
 	position: relative;
 	left: 50%;
-	box-sizing: border-box;
+	
 }
 section.top {
-	display: inline-block;
+	
 }
 
 .righttop {
 	width: 40%;
 	margin: 50px 0 50px 0;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	position: relative;
-	left: 50%;
+	left: 40%;
+	display: inline-block;
+	box-sizing: border-box;
 }
 .lefttop{
 	width: 40%;
 	margin: 50px 0 50px 0;
+	position: relative;
+	left: 2%;
+	display: inline-block;
+	box-sizing: border-box;
 
 }
