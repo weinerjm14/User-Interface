@@ -64,13 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+.top-container {
+	padding-bottom: 4%;
+}
+.navlinks{
+	width: 80%;
+}
 .navlinks, .navimg {
 	display: inline-block;
-	
+		
+}
+.navlinks a{
+	text-decoration: none;
+	color: rosybrown;
+	padding-right: 8%;
 }
 .headerleft, .headerright {
 	display: inline-block;
 	width: 48%;
+	vertical-align: middle;
+	padding-left: 25px;
+	
+}
+.headerleft {
+	text-align: center;
 }
 .lefttop, .righttop {
 	display: inline-block;
@@ -79,20 +100,37 @@ h1, h2, h3, h4, h5 {
 }
 .bottomleft, .bottommid, .bottomright {
 	display: inline-block;
-	width: 30%;
-	
+	width: 32%;
+	margin: 5% 0;
 }
 footer {
 	text-align: center;
 	padding: 50px 0 100px 0;
 }
-h1.headerleft {
-	font-size: 100px;
+.headerleft h1{
+	font-size: 50px;
+	
+	
 }
-.headerbutton {
+.headerleft a{
+	text-decoration: none;
 	width: 33%;
 	height: 35px;
 	border: 1px solid black;
-	
-	padding: 20px, 0;
+	padding: 1% 2%;
+	color: black;
+}
+header {
+	padding-bottom: 3%;
+}
+.contact{
+	padding-top: 5%;
+}
+
+.middle-img{
+	width: 100%;
+
+}
+.tel{
+	line-height: 50px;
 }
