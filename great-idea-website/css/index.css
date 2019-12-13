@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+.top-container {
+	padding-bottom: 4%;
+}
+.navlinks{
+	width: 80%;
+}
+.navlinks, .navimg {
+	display: inline-block;
+	
+	
+		
+}
+
+.navlinks a{
+	text-decoration: none;
+	color: rosybrown;
+	padding-right: 8%;
+	
+}
+.navlinks a:hover{
+	color: black;
+}
+.headerleft, .headerright {
+	display: inline-block;
+	width: 48%;
+	vertical-align: middle;
+	padding-left: 25px;
+	
+}
+.headerleft {
+	text-align: center;
+}
+.lefttop, .righttop {
+	display: inline-block;
+	width: 48%;
+	padding: 50px 0;
+}
+.bottomleft, .bottommid, .bottomright {
+	display: inline-block;
+	width: 32%;
+	margin: 5% 0;
+}
+.services-left, .services-mid, .services-right {
+	display: inline-block;
+	width: 32%;
+	margin: 5% 0;
+}
+.book-button {
+	display: inline-block;
+	padding: 50px 0;
+	width: 96%;
+	height: 35%;
+	margin: 0, auto;
+	text-align: center;
+}
+.book-button a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	height: 35px;
+	border: 5px inset rosybrown;
+	padding: 1% 2%;
+	background-color: black;
+}
+.book-button a:hover{
+	background-color: gray;
+	}
+.services img {
+	border: 5px inset rosybrown;
+	margin-bottom: 10%;
+}
+footer {
+	text-align: center;
+	padding: 50px 0 100px 0;
+}
+.headerleft h1{
+	font-size: 50px;
+	
+	
+}
+.headerleft a{
+	text-decoration: none;
+	width: 33%;
+	height: 35px;
+	border: 1px solid black;
+	padding: 1% 2%;
+	color: black;
+}
+header {
+	padding-bottom: 3%;
+}
+.contact{
+	padding-top: 5%;
+}
+
+.middle-img{
+	width: 100%;
+
+}
+.tel{
+	line-height: 50px;
+}
